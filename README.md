@@ -1,4 +1,4 @@
-# little arcade
+# little fun
 
 A cozy, responsive game shelf with 120 browser games across clicker, idle,
 memory, reaction, and target categories. Favorites and game progress are saved
