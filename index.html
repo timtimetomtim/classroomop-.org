@@ -3,41 +3,41 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#101019" />
-    <meta name="description" content="A cozy collection of little games for a little break." />
-    <title>little arcade — games for a little break</title>
+    <meta name="theme-color" content="#080b18" />
+    <meta name="description" content="classroomop.com — jump into quick games, beat your high score, and play another round." />
+    <title>classroomop.com</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="ambient ambient-one"></div>
     <div class="ambient ambient-two"></div>
     <header class="topbar">
-      <a class="brand" href="#" aria-label="little arcade home">
-        <span class="brand-mark">✳</span><span>little<span class="brand-light">arcade</span></span>
+      <a class="brand" href="#" aria-label="classroomop.com home">
+        <span class="brand-mark">✦</span><span>classroomop.com</span>
       </a>
       <nav class="top-links" aria-label="Main navigation">
         <a href="#games">Explore</a>
         <a href="#games" data-quick-filter="Idle">Idle games</a>
         <a href="#games" data-quick-filter="Clicker">Clickers</a>
       </nav>
-      <div class="top-note"><span class="online-dot"></span> your tiny corner of the internet</div>
+      <div class="top-note"><span class="online-dot"></span> 120 GAMES · NO DOWNLOADS</div>
     </header>
 
     <main>
       <section class="hero">
         <div class="hero-copy">
-          <div class="eyebrow"><span>✦</span> TAKE A LITTLE PAUSE</div>
-          <h1>A little play<br />goes a <span class="gradient-text">long way.</span></h1>
-          <p>A cozy collection of tiny games, satisfying clicks, and low-stakes fun. Pick a game and settle in.</p>
-          <a class="primary-button" href="#games">Find your next game <span>↘</span></a>
+          <div class="eyebrow"><span>✦</span> PLAYER 1 · ARCADE ONLINE</div>
+          <h1>Pick a game.<br />Press <span class="gradient-text">start.</span></h1>
+          <p>Jump into quick challenges, build a streak, and chase your next high score. Your next favorite is one click away.</p>
+          <a class="primary-button" href="#games">Browse the games <span>↘</span></a>
         </div>
         <div class="hero-art" aria-hidden="true">
           <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
-          <div class="planet"><span>✿</span></div>
-          <div class="float-card float-card-a"><span>🍓</span><b>berry pop</b><small>just one more...</small></div>
-          <div class="float-card float-card-b"><span>🌙</span><b>moon garden</b><small>growing quietly</small></div>
+          <div class="planet"><span>👾</span></div>
+          <div class="float-card float-card-a"><span>🍓</span><b>berry pop</b><small>+10 combo!</small></div>
+          <div class="float-card float-card-b"><span>🌙</span><b>moon garden</b><small>new high score</small></div>
           <div class="spark spark-a">✦</div><div class="spark spark-b">✧</div>
-          <div class="hero-caption">good vibes, no rush <span>♡</span></div>
+          <div class="hero-caption">LEVEL UP, YOUR WAY <span>✦</span></div>
         </div>
         <div class="hero-stats">
           <div><strong id="game-count">120</strong><span>little games</span></div>
@@ -48,8 +48,8 @@
 
       <section class="games-section" id="games">
         <div class="section-heading">
-          <div><div class="eyebrow"><span>✳</span> THE GAME SHELF</div><h2>Find your <span class="gradient-text">kind of fun.</span></h2></div>
-          <label class="search-box"><span>⌕</span><input id="search" type="search" placeholder="Search little games..." aria-label="Search games" /><kbd>⌘ K</kbd></label>
+          <div><div class="eyebrow"><span>✳</span> SELECT YOUR GAME</div><h2>Choose your <span class="gradient-text">next challenge.</span></h2></div>
+          <label class="search-box"><span>⌕</span><input id="search" type="search" placeholder="Find a game..." aria-label="Search games" /><kbd>⌘ K</kbd></label>
         </div>
         <div class="filter-row" id="filters" aria-label="Filter games">
           <button class="filter active" data-filter="All">✦ All games <span>120</span></button>
@@ -58,13 +58,13 @@
           <button class="filter" data-filter="Memory">🧠 Memory</button>
           <button class="filter" data-filter="Reaction">⚡ Reaction</button>
           <button class="filter" data-filter="Target">🎯 Targets</button>
-          <span class="sort-label">A shelf full of small joys <span>♡</span></span>
+          <span class="sort-label">CHOOSE YOUR MODE <span>✦</span></span>
         </div>
         <div class="game-grid" id="game-grid"></div>
         <div class="empty-state" id="empty-state" hidden><span>☁</span><h3>No games found</h3><p>Try another search — there's something for every mood.</p></div>
         <div class="load-more-wrap"><span id="result-count">Showing 120 games</span><button class="text-button" id="show-favorites">♡ Your favorites</button></div>
       </section>
-      <section class="footer-note"><span>✳</span><p>Made for the little moments. Take a breath, play a round, and be kind to yourself.</p><span>♡</span></section>
+      <section class="footer-note"><span>✳</span><p>Ready, player one? Pick a game, chase a high score, and come back for one more round.</p><span>✦</span></section>
     </main>
 
     <div class="modal-backdrop" id="modal" hidden>
